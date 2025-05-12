@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoturismo em Pé de Serra | Bahia</title>
+    <meta name="description" content="Descubra as belezas naturais de Pé de Serra, Bahia. Trilhas, serras e experiências únicas de ecoturismo.">
+    <meta name="keywords" content="ecoturismo, Pé de Serra, Bahia, trilhas, serras, turismo sustentável">
+    <link rel="icon" type="image/png" href="images/icons/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preload" as="image" href="images/hero/hero-background.jpeg">
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <button id="backToTop" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/icons/logo.png" alt="Logo Ecoturismo Pé de Serra" class="logo-img">
+                <span>Ecoturismo Pé de Serra</span>
+            </div>
+            <button class="menu-toggle" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="active">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#pontos-turisticos">Pontos Turísticos</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="images/hero/hero-background.jpeg" alt="Vista panorâmica de Pé de Serra">
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <h1>Ecoturismo em Pé de Serra</h1>
+            <p>Descubra as belezas naturais do interior da Bahia</p>
+            <a href="#experiencias" class="cta-button">Explorar Destinos</a>
+        </div>
+
+        <div class="slider-controls">
+            <button class="prev" aria-label="Slide anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next" aria-label="Próximo slide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Role para baixo</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 data-aos="fade-up">Sobre Pé de Serra</h2>
+            <div class="sobre-content">
+                <div class="sobre-texto" data-aos="fade-right">
+                    <p class="destaque">Localizada no coração da Bahia, Pé de Serra é um paraíso natural esperando para ser descoberto.</p>
+                    <p>Nossa região é abençoada com serras majestosas, cachoeiras cristalinas e uma rica biodiversidade que encanta visitantes de todo o Brasil.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-hiking"></i>
+                            <h3>Trilhas Guiadas</h3>
+                            <p>Explore caminhos seguros com guias experientes</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-mountain"></i>
+                            <h3>Escaladas</h3>
+                            <p>Conquiste nossas serras com equipamentos adequados</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Ecoturismo</h3>
+                            <p>Turismo sustentável e responsável</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-imagem" data-aos="fade-left">
+                    <img src="images/pontos-turisticos/serra-leao.jpeg" alt="Vista da Serra do Leão">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="estatisticas">
+        <div class="container">
+            <div class="stat-item" data-aos="fade-up">
+                <i class="fas fa-mountain"></i>
+                <div class="counter" data-target="5">0</div>
+                <h3>Serras Principais</h3>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-hiking"></i>
+                <div class="counter" data-target="12">0</div>
+                <h3>Trilhas Marcadas</h3>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-smile-beam"></i>
+                <div class="counter" data-target="1000">0</div>
+                <h3>Visitantes Felizes</h3>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-tree"></i>
+                <div class="counter" data-target="500">0</div>
+                <h3>Hectares Preservados</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="pontos-turisticos" class="pontos-turisticos">
+        <div class="container">
+            <h2 data-aos="fade-up">Pontos Turísticos</h2>
+            <div class="pontos-grid">
+                <div class="ponto-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="images/pontos-turisticos/serra-leao.jpeg" alt="Serra do Leão">
+                        <div class="card-overlay">
+                            <a href="#" class="btn-saiba-mais">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Serra do Leão</h3>
+                        <p>Majestosa formação rochosa que oferece trilhas e vistas panorâmicas incríveis.</p>
+                        <div class="card-info">
+                            <span><i class="fas fa-clock"></i> 4-6 horas</span>
+                            <span><i class="fas fa-signal"></i> Moderado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ponto-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="images/pontos-turisticos/minadouro.JPG" alt="Minadouro">
+                        <div class="card-overlay">
+                            <a href="#" class="btn-saiba-mais">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Minadouro</h3>
+                        <p>Local de águas cristalinas perfeito para banho e relaxamento.</p>
+                        <div class="card-info">
+                            <span><i class="fas fa-clock"></i> 2-3 horas</span>
+                            <span><i class="fas fa-signal"></i> Fácil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ponto-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="images/pontos-turisticos/serra-bugi.jpg" alt="Serra do Bugi">
+                        <div class="card-overlay">
+                            <a href="#" class="btn-saiba-mais">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Serra do Bugi</h3>
+                        <p>Ponto mais alto da região, oferecendo vistas deslumbrantes.</p>
+                        <div class="card-info">
+                            <span><i class="fas fa-clock"></i> 6-8 horas</span>
+                            <span><i class="fas fa-signal"></i> Difícil</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mapa" class="mapa" data-aos="fade-up"></div>
+        </div>
+    </section>
+
+    <section id="experiencias" class="experiencias">
+        <div class="container">
+            <h2 data-aos="fade-up">Experiências Únicas</h2>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="trilhas">Trilhas</button>
+                <button class="tab-btn" data-tab="camping">Camping</button>
+                <button class="tab-btn" data-tab="fotografia">Fotografia</button>
+            </div>
+            <div class="tab-content active" id="trilhas">
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2 data-aos="fade-up">Galeria de Imagens</h2>
+            <div class="filtros">
+                <button class="filtro-btn active" data-filter="todos">Todos</button>
+                <button class="filtro-btn" data-filter="serras">Serras</button>
+                <button class="filtro-btn" data-filter="trilhas">Trilhas</button>
+                <button class="filtro-btn" data-filter="natureza">Natureza</button>
+            </div>
+            <div class="galeria-grid">
+                <div class="galeria-item serras">
+                    <img src="images/galeria/foto1.jpeg" alt="Serra">
+                </div>
+                <div class="galeria-item trilhas">
+                    <img src="images/galeria/foto2.jpeg" alt="Trilha">
+                </div>
+                <div class="galeria-item natureza">
+                    <img src="images/galeria/foto3.jpg" alt="Natureza">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="depoimentos">
+        <div class="container">
+            <h2 data-aos="fade-up">O que dizem nossos visitantes</h2>
+            <div class="depoimentos-slider">
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 data-aos="fade-up">Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info" data-aos="fade-right">
+                    <h3>Informações</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>Pé de Serra - BA</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(75) XXXX-XXXX</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>contato@ecoturismopedesserra.com.br</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form id="contato-form" class="contato-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" id="nome" required>
+                        <label for="nome">Nome</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="assunto" required>
+                            <option value="">Selecione o assunto</option>
+                            <option value="trilhas">Trilhas</option>
+                            <option value="camping">Camping</option>
+                            <option value="grupos">Grupos</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" required></textarea>
+                        <label for="mensagem">Mensagem</label>
+                    </div>
+                    <button type="submit" class="btn-enviar">
+                        <span>Enviar Mensagem</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h3>Fique por dentro das novidades</h3>
+                <p>Receba atualizações sobre eventos e novidades do ecoturismo em Pé de Serra</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Digite seu e-mail" required>
+                    <button type="submit">Inscrever-se</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/icons/logo.png" alt="Logo Ecoturismo Pé de Serra">
+                    <p>Ecoturismo Pé de Serra</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#pontos-turisticos">Pontos Turísticos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ecoturismo Pé de Serra. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API_AQUI&callback=initMap"></script>
+</body>
+</html>
